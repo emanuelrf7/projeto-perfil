@@ -196,12 +196,12 @@ body a {
 
 @media (min-width: 1200px) {
     .secao1 h1 {
-        font-size: 4.5em;
+        font-size: 4em;
     }
     
     .secao1 > div#circulo {
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
         border-radius: 50%;
     }
 
