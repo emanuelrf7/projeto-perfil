@@ -195,6 +195,10 @@ body a {
 /* Monitores e telas maiores */
 
 @media (min-width: 1200px) {
+    .secao1 {
+        margin-bottom: 50px;
+    }
+    
     .secao1 h1 {
         font-size: 4em;
     }
