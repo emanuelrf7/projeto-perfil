@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte: 'Popins', sans-serif;
+
+    --cor01: #540B0E;
+    --cor02: #DE454A;
+    --cor03: #F24236;
+}
+
+/* Mobile First */
+
+body {
+    background-image: linear-gradient(to bottom, black, #540B0E);
+    font-family: var(--fonte);
+}
+
+body a {
+    color: white;
+}
+
+.conteudo-principal {
+    color: var(--cor02);
+}
+
+.secao1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 90vh;
+}
+
+.secao1 h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.secao1 > div#circulo {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: white url('../img/emanuelrf.jpg') center center no-repeat scroll;
+    background-size: cover;
+    border: 2px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.secao2 {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 90vh;
+    margin-top: 50px;
+}
+
+.secao2 p {
+    font-size: 2em;
+    text-align: center;
+    text-indent: 15px;
+}
+
+.secao3 {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 100vh;
+}
+
+.secao3 h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.secao3 a {
+    font-size: 2em;
+}
+
+.secao3 > div > a#cor-insta:hover {
+    background-image: linear-gradient(to bottom, #AA08F1, #FF016D, #FFAD00);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.secao3 > div > a#cor-x:hover {
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px 30px;  
+}
+
+.secao3 > div > a#cor-github:hover {
+    background-color: #010409;
+    border-radius: 5px;
+    padding: 10px 20px;    
+}
+
+.secao3 > div > a#cor-facebook:hover {
+    background-color: #0866FF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: none;    
+}
+
+.rodape {
+    margin: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rodape p {
+    color: var(--cor03);
+    font-size: 1em;
+}
+
+/* Tablets pequenos e celulares grandes */
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .secao1 h1 {
+        font-size: 3.5em;
+    }
+    
+    .secao1 > div#circulo {
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+    }
+
+    .secao2 p {
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .secao3 h2 {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .secao3 a {
+        font-size: 2.5em;
+    }
+}
+
+/* Tablets grandes */
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .secao1 h1 {
+        font-size: 4em;
+    }
+    
+    .secao1 > div#circulo {
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+    }
+
+    .secao2 p {
+        font-size: 3em;
+        text-align: justify;
+        margin-top: 50px;
+    }
+
+    .secao3 h2 {
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    .secao3 a {
+        font-size: 3em;
+    }
+}
+
+/* Monitores e telas maiores */
+
+@media (min-width: 1200px) {
+    .secao1 h1 {
+        font-size: 4.5em;
+    }
+    
+    .secao1 > div#circulo {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+    }
+
+    .secao2 p {
+        font-size: 3em;
+        text-align: justify;
+        margin-top: 50px;
+    }
+
+    .secao3 h2 {
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    .secao3 a {
+        font-size: 3em;
+    }
+}
