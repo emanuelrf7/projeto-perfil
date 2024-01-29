@@ -134,7 +134,7 @@ body a {
 
 /* Tablets pequenos e celulares grandes */
 
-@media (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
     .secao1 h1 {
         font-size: 3.5em;
     }
@@ -164,7 +164,7 @@ body a {
 
 /* Tablets grandes */
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .secao1 h1 {
         font-size: 4em;
     }
@@ -194,7 +194,7 @@ body a {
 
 /* Monitores e telas maiores */
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .secao1 {
         margin-bottom: 50px;
     }
