@@ -39,7 +39,7 @@ body a {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 90vh;
+    height: 100vh;
 }
 
 .secao1 h1 {
@@ -66,7 +66,7 @@ body a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 90vh;
+    height: 100vh;
     margin-top: 50px;
 }
 
@@ -136,7 +136,7 @@ body a {
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
     .secao1 h1 {
-        font-size: 3.5em;
+        font-size: 3em;
     }
     
     .secao1 > div#circulo {
@@ -146,19 +146,19 @@ body a {
     }
 
     .secao2 p {
-        font-size: 2.5em;
+        font-size: 1.5em;
         text-align: center;
         margin-top: 50px;
     }
 
     .secao3 h2 {
-        font-size: 3em;
+        font-size: 2em;
         text-align: center;
         margin-top: 50px;
     }
 
     .secao3 a {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 }
 
@@ -166,7 +166,7 @@ body a {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
     .secao1 h1 {
-        font-size: 4em;
+        font-size: 3.5em;
     }
     
     .secao1 > div#circulo {
@@ -176,19 +176,19 @@ body a {
     }
 
     .secao2 p {
-        font-size: 3em;
+        font-size: 2.5em;
         text-align: justify;
         margin-bottom: 50px;
     }
 
     .secao3 h2 {
-        font-size: 3.5em;
+        font-size: 3em;
         text-align: center;
         margin-top: 50px;
     }
 
     .secao3 a {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 }
 
